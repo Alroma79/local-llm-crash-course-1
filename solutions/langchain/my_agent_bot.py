@@ -22,7 +22,7 @@ class StreamHandler(BaseCallbackHandler):
 llm = Ollama(
     model="deepseek-r1:1.5b",  # You can switch to deepseek-r1:14b or another version
     temperature=0.7,
-    )
+)
 
 template = """
 [INST] <<SYS>>
